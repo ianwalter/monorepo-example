@@ -1,0 +1,13 @@
+{
+  "name": "monorepo-example",
+  "version": "1.0.0",
+  "description": "An example of a pnpm monorepo",
+  "author": {
+    "name": "Ian Walter"
+  },
+  "scripts": {
+    "test": "pnpm test --filter '@ianwalter/monorepo-*'",
+    "mrapp": "./packages/app/cli.js"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}
