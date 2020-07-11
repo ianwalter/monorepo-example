@@ -1,5 +1,5 @@
-const { print } = require('@ianwalter/print')
+const { print, chalk } = require('@ianwalter/print')
 
 module.exports = function log (msg) {
-  return print.log('👋', msg)
+  return print.log('👋', chalk.bold(msg))
 }
