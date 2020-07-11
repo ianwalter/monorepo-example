@@ -18,11 +18,17 @@ jobs:
           fetch-depth: 0
       - name: Install
         run: npm i -g pnpm && pnpm i
-      - name: Create Release Pull Request or Publish to npm
+      - name: Create .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //registry.npmjs.org/:_authToken=$NPM_TOKEN
+          EOF
+        env:
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Changesets
         id: changesets
         uses: changesets/action@master
         with:
           publish: pnpx changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
