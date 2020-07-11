@@ -10,9 +10,6 @@
     "name": "Ian Walter"
   },
   "license": "SEE LICENSE IN LICENSE",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/ianwalter/monorepo-example.git",
