@@ -20,7 +20,7 @@ jobs:
         run: npm i -g pnpm && pnpm i
       - name: Changesets
         id: changesets
-        uses: changesets/action@master
+        uses: ianwalter/action@debug
         with:
           publish: pnpx changeset publish
         env:
