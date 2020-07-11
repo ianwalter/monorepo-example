@@ -6,6 +6,9 @@
     "mrapp": "cli.js"
   },
   "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/ianwalter/monorepo-example.git",
