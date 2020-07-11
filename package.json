@@ -9,5 +9,8 @@
     "test": "pnpm test --filter '@ianwalter/monorepo-*'",
     "mrapp": "./packages/app/cli.js"
   },
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "@changesets/cli": "^2.9.2"
+  }
 }
