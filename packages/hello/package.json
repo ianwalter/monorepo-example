@@ -19,7 +19,7 @@
     "directory": "packages/hello"
   },
   "devDependencies": {
-    "@ianwalter/bff": "^9.10.0"
+    "@ianwalter/bff": "^11.2.2"
   },
   "peerDependencies": {
     "@ianwalter/monorepo-app": "^1.0.0"
