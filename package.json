@@ -11,7 +11,7 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "@changesets/cli": "^2.9.2",
+    "@changesets/cli": "^2.26.2",
     "@ianwalter/renovate-config": "^1.4.0"
   },
   "renovate": {
